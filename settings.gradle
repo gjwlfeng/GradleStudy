@@ -1,0 +1,5 @@
+rootProject.name = "GradleStudy"
+include ':app'
+include ':gradle-core'
+include ':gradle-api'
+include ':gradle-dsl'

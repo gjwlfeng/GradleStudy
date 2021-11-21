@@ -1,0 +1,52 @@
+{
+  "buildFiles": [
+    "/{PROJECT}/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/private/var/tmp/_bazel_jomof/cd7382de6c57d974eabcf5c1270266ca/execroot/__main__/bazel-out/darwin-fastbuild/bin/tools/base/build-system/integration-test/native/CmakeBasicProjectTest.runfiles/__main__/prebuilts/studio/sdk/darwin/cmake/3.17.0/bin/ninja",
+      "-C",
+      "/{PROJECT}/.cxx/cmake/debug/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/private/var/tmp/_bazel_jomof/cd7382de6c57d974eabcf5c1270266ca/execroot/__main__/bazel-out/darwin-fastbuild/bin/tools/base/build-system/integration-test/native/CmakeBasicProjectTest.runfiles/__main__/prebuilts/studio/sdk/darwin/cmake/3.17.0/bin/ninja",
+    "-C",
+    "/{PROJECT}/.cxx/cmake/debug/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "bar::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "bar",
+      "output": "/{PROJECT}/build/intermediates/cmake/debug/obj/x86_64/libbar.so",
+      "runtimeFiles": [
+        "/{PROJECT}/build/intermediates/cmake/debug/obj/x86_64/libfoo.so"
+      ]
+    },
+    "baz::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "baz",
+      "output": "/{PROJECT}/libbaz.a"
+    },
+    "foo::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "foo",
+      "output": "/{PROJECT}/build/intermediates/cmake/debug/obj/x86_64/libfoo.so"
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/private/var/tmp/_bazel_jomof/cd7382de6c57d974eabcf5c1270266ca/execroot/__main__/_tmp/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+      "cppCompilerExecutable": "/private/var/tmp/_bazel_jomof/cd7382de6c57d974eabcf5c1270266ca/execroot/__main__/_tmp/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
